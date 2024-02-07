@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@env": ["node_modules/react-native-dotenv"] // this mapping is relative to "baseUrl"
+    },
+    "typeRoots": ["./types"]
+  }
+}
